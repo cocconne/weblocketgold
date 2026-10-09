@@ -1,0 +1,6 @@
+{
+  "name": "Locket Gold - Cấu Hình DNS",
+  "description": "Hướng dẫn và tải cấu hình DNS Locket Gold cho thiết bị iOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
