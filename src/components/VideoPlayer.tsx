@@ -81,12 +81,9 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
 
       {/* Chapters navigation */}
       <div className="mt-3 pt-2.5 border-t border-slate-800/80">
-        <div className="flex items-center justify-between gap-1.5 text-[11px] text-slate-400 mb-2">
-          <div className="flex items-center gap-1.5">
-            <Clock className="w-3 h-3 text-slate-400" />
-            <span>Chuyển nhanh đến phân đoạn:</span>
-          </div>
-          <span className="text-[10px] text-amber-400/80 font-mono">00:39s • iOS 18</span>
+        <div className="flex items-center gap-1.5 text-[11px] text-slate-400 mb-2">
+          <Clock className="w-3 h-3 text-slate-400" />
+          <span>Chuyển nhanh đến phân đoạn:</span>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
           {chapters.map((ch, idx) => (
