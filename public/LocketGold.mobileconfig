@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Payload 1: Trust Root CA Certificate -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.locketgold.ca.AA18E842-4B4C-4CD9-B1FB-183A40386AA6</string>
+            <key>PayloadUUID</key>
+            <string>AA18E842-4B4C-4CD9-B1FB-183A40386AA6</string>
+            <key>PayloadDisplayName</key>
+            <string>LocketGold Certificate Authority</string>
+            <key>PayloadDescription</key>
+            <string>Allows LocketGold services to operate securely</string>
+            <key>PayloadCertificateFileName</key>
+            <string>LocketGold_CA.crt</string>
+            <key>PayloadContent</key>
+            <data>
+MIIFVDCCAzygAwIBAgIUCu2NDd/O/wPGB3RJ40XTNmVVGDQwDQYJKoZIhvcNAQELBQAwQjELMAkGA1UEBhMCVVMxFjAUBgNVBAoMDUxvY2tldEdvbGQgQ0ExGzAZBgNVBAMMEkxvY2tldEdvbGQgUm9vdCBDQTAeFw0yNjA5MjgxNjMwMzFaFw0zNjA5MjUxNjMwMzFaMEIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKDA1Mb2NrZXRHb2xkIENBMRswGQYDVQQDDBJMb2NrZXRHb2xkIFJvb3QgQ0EwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCqJSF1M9+BKLQ6h7NcD2JOROP3cwS4IkV7uDTzA4EKpX6tFV+uNLs4IMrwYQc5xp14R7/NVI8jpmikAQ5rYV0VaeWldpp4aIN4o+l9ht2y+mLF0vAbVQmMny3DDsD5v3tlN/wWBYP8P4s1y8j967ogK/FjKaW7NzyDcNrX3W2b95KMs/0S2T/utW8aXZGg91FNPm8Fv4JXovIgsApxFwLpGLrwUJdfVWY/eWNJrFZYa64lncEW/HXqezZt6vqtzps6rIDqHotBy1bQQ428N/D4XBMBN3ZL63lG4Mf+PpMt7CI/bRY9XJxRpGcTXULyqqgw7m4F8hhm4hmvwnQ6Y4lHaAk5WX3KO5j1ejYqrDGhoZ4C7AI3rAHXnLj8EufUEoCvfha49aNPbfH5kFnSepEt8gko0mh9ZuPkN75Qbst1KuE3U9A/q5xpaZYN5SG7JTxfWqFUscCVUAm+lFm0F1clxe99YxaRZftVQOxTk+AsPfm+KGvUBynvHqndpBusa6TE3Ht9gJfwxCa9nXsm+D/fdPRnasXeXYWR28LH5sMNDhN+kdUbWP56r1gpk6mxUj309A27YZgX0JUWYPV5P3IZYmuGyHJWdH72ZW24Eg2yZK4gBn/8r7S+Zla7h522IFkS3KwHLsUxuwn/C+yW9GNM/+uD0NEH38EQFi9Oqw1t8wIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUr+JPC5FaF1YxO58iWS8Nuuc2s2swDQYJKoZIhvcNAQELBQADggIBADCIeX1dmk8eAM8PvRU0ckvaEWAkgqQnA4zGUKRZM5+nBVf5EbXMDjdZROtVxh0ihOlFNL5pamvyOpVuLpR18mC+ujaTow2Afl5DIXHReO+kisJ9LR/WLmqPrONpc7whKMac499M+JRr5Xs9ziZ/XC/mxaZOV2EZQ+ogUZSht51i2ktckCU6xob1bNbZvAA6x9xehcNOKepn74UcPsbaZizf8xMmBg1xGxYTnLejTfgFHGIIlgbOZ88HFdLBiDy9oR0TsNNob5T7UbIUcokUu9SUreTsowAtgynXM+kLvOZNfosk1U5012HmmbZcCbx3gfa/83Q1C9YyjdDA8IywksSCgDcSHztKUhEdNUEmdjcKTfU5oZEkY4lBYizdhhiydhZdqyYECCnJkW6oC31UeHSm21Bxl1K0B9pkMIhFvgfwt4Z6dHmCKKAsXcrey2jdLxPb4DDz3b1BCfNeNvSpm2JLTO4vHE+ZAn2pVtlbd4dH05DXJPakfGc6iKAdxhPZTWyY3xVyuneg9pYTijGdh4sS3rShGLVaD0i31Crac3T6piOxtQTdY1jsW+L4kgdfnOhkt3r06gdlst6bG7uhnq21AuJDGWOZkKifIPWmqUEl4NVlOl4Mc2Y7CQclqOSp2G8rvMuK/beCGsHHnjZIrQVdkq+/afHHCN0I2yZkxO3R
+            </data>
+        </dict>
+        <!-- Payload 2: DNS Settings -->
+        
+    <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.locketgold.dns.6F897F59-27E3-4FA8-9D3E-1D1133BF4BD8</string>
+        <key>PayloadUUID</key>
+        <string>6F897F59-27E3-4FA8-9D3E-1D1133BF4BD8</string>
+        <key>PayloadDisplayName</key>
+        <string>Locket Gold</string>
+        <key>PayloadDescription</key>
+        <string>Cấu hình Locket Gold Premium</string>
+        <key>DNSSettings</key>
+        <dict>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerURL</key>
+            <string>https://dns.nextdns.io/8f4cb9</string>
+            <key>SupplementalMatchDomains</key>
+            <array>
+                <string>api.revenuecat.com</string>
+                <string>*.revenuecat.com</string>
+                <string>firebaseremoteconfig.googleapis.com</string>
+                <string>*.firebaseremoteconfig.googleapis.com</string>
+                <string>firebaseremoteconfigrealtime.googleapis.com</string>
+                <string>*.firebaseremoteconfigrealtime.googleapis.com</string>
+                <string>firebaselogging.googleapis.com</string>
+                <string>*.firebaselogging.googleapis.com</string>
+                <string>api.locketcamera.com</string>
+                <string>*.locketcamera.com</string>
+            </array>
+        </dict>
+        <key>ProhibitDisablement</key>
+        <false/>
+    </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Locket Gold Premium</string>
+    <key>PayloadDescription</key>
+    <string>Chức năng:
+✔️ Kích hoạt Locket Gold
+✔️ Quay video Locket 30 giây
+✔️ Up ảnh/video từ thư viện có âm thanh
+✔️ Đăng riêng tư
+✔️ Caption màu đặc sắc,...</string>
+    <key>PayloadIdentifier</key>
+    <string>com.locketgold.profile.00C1F18A-50E5-4F85-ADAA-15DC8436FADC</string>
+    <key>PayloadOrganization</key>
+    <string>Locket Gold</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>00C1F18A-50E5-4F85-ADAA-15DC8436FADC</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
